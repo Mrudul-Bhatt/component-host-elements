@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  padding: 20px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+:host(.active) {
+  border-color: #4CAF50;
+}
